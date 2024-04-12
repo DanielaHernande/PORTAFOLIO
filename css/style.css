@@ -129,6 +129,7 @@ a:hover {
 }
 
 .habilidades h1 {
+  font-weight: 600;
   font-size: 35px;
   color: var(--c-secondary);
 }
@@ -205,6 +206,22 @@ a:hover {
   position: relative;
 }
 
+.setion-title-pojects h1 {
+  font-weight: 600;
+  font-size: 45px;
+  color: var(--c-primary);
+}
+
+.setion-title-pojects p {
+  font-size: 30px;
+  color: var(--c-primary);
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
 .project .content {
   position: absolute;
   top: 100%;
@@ -243,6 +260,7 @@ a:hover {
   }
 }
 
+/* Animacion de la imagen pricipal*/
 #home img {
   animation: floatAnimation 3s ease-in-out infinite; /* Repetir la animación infinitamente */
 }
